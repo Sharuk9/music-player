@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-image: url(sharuk.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.navbar{
+    width: 88%;
+    margin: auto;
+    padding: 15px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 25px;
+}
+.navbar ul li a{
+    color: white;
+    font-size: 20px;
+}
+
+.content{
+    width: 100%;
+    position: absolute;
+    top: 30%;
+    color: red;
+
+}
+.left-col{
+    margin-left: 6%;
+}
+.left-col h1{
+    font-size: 90px;
+    line-height: 110px;
+}
+.right-col{
+    float: right;
+    margin-right: 18%;
+    margin-top: -12%;
+    display: flex;
+    align-items: center;
+}
+.right-col p{
+    font-size: 22px;
+    font-weight: 400;
+    margin-right: 15px;
+    color: white;
+}    
+  #icon{
+      width: 80px;
+      cursor: pointer;
+  }                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               
